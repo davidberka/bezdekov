@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+@layer components {
+    .burger-menu {
+        @apply flex items-center border-0 bg-none text-lg font-medium lg:hidden;
+    }
+
+    .burger-menu svg {
+        @apply absolute inset-0 transition-all duration-200;
+    }
+
+    .burger-menu svg.burger-menu-close {
+        @apply scale-75 opacity-0;
+    }
+
+    .burger-menu.open svg.burger-menu-close {
+        @apply scale-100 opacity-100;
+    }
+
+    .burger-menu.open svg.burger-menu-open {
+        @apply scale-75 opacity-0;
+    }
+
+    .navbar {
+        @apply invisible absolute top-full left-0 block w-full -translate-y-4  border-b-4 border-b-primary bg-white p-4 opacity-0 transition-all duration-200 lg:visible lg:static lg:translate-y-0 lg:border-b-0 lg:bg-none lg:p-0 lg:opacity-100;
+    }
+
+    .navbar.open {
+        @apply visible translate-y-0 opacity-100;
+    }
+}
