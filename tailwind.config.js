@@ -22,3 +22,4 @@ module.exports = {
     },
     plugins: [require("@tailwindcss/line-clamp")],
 };
+// npx tailwind -i ./src/input.css -o ./src/output.css --watch

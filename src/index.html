@@ -13,12 +13,14 @@
         <header
             class="container relative flex h-20 items-center justify-between lg:h-24"
         >
-            <img
-                class="h-14 w-auto object-contain lg:h-20"
-                src="./images/znak-obce.png"
-                width="100"
-                alt=""
-            />
+            <a href="index.html">
+                <img
+                    class="h-14 w-auto object-contain lg:h-20"
+                    src="./images/znak-obce.png"
+                    width="100"
+                    alt=""
+                />
+            </a>
             <nav class="navbar">
                 <ul
                     class="w-full lg:flex lg:h-full lg:items-center lg:justify-center lg:space-x-9"
@@ -39,9 +41,17 @@
                     </li>
                     <li>
                         <a
-                            class="block w-full py-2 text-lg font-medium lg:hover:text-primary lg:hover:underline lg:hover:underline-offset-4"
+                            class="block w-full border-b-2 border-primary border-opacity-20 py-2 text-lg font-medium duration-200 lg:border-b-0 lg:hover:text-primary lg:hover:underline lg:hover:underline-offset-4"
                             href="#kontakt"
                             >Kontakt</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            class="block w-full py-2 text-lg font-medium lg:hover:text-primary lg:hover:underline lg:hover:underline-offset-4"
+                            href="#"
+                            target="_blank"
+                            >Rozpis hřiště</a
                         >
                     </li>
                 </ul>
@@ -67,64 +77,91 @@
                 <div class="container">
                     <img
                         class="rounded"
-                        src="https://picsum.photos/1300/500"
+                        src="https://sparta.cz/assets/img/club/generali-arena/cover.jpg?w=1102&webp=1"
                         alt=""
                     />
                 </div>
             </section>
             <section id="clanky" class="py-6 lg:py-11">
-                <div class="container columns-1 gap-6 lg:columns-3">
+                <div class="container grid grid-cols-1 gap-6 lg:grid-cols-3">
                     <article>
-                        <div class="mx-auto w-max max-w-full">
-                            <img
-                                class="rounded"
-                                src="https://picsum.photos/500/200"
-                                alt=""
-                            />
+                        <div class="max-w-full">
+                            <a
+                                class="group relative block h-[240px] overflow-hidden"
+                                href="article.html"
+                            >
+                                <img
+                                    class="absolute inset-0 h-full w-full rounded object-cover transition-transform duration-200 group-hover:scale-105"
+                                    src="https://sparta.cz/upload/cropper/2023-2/m5alnfmmzp63ee0a727c9a34.72536753.jpg?w=960&webp=1"
+                                    alt=""
+                                />
+                            </a>
                             <div class="py-2">
-                                <span class="text-sm">18. 1. 2023</span>
+                                <span class="text-sm">22. 2. 2023</span>
                                 <h3
                                     class="text-lg font-bold leading-6 line-clamp-2 lg:text-xl"
                                 >
-                                    Lorem ipsum dolor sit amet consectetur,
-                                    adipisicing elit.
+                                    <a
+                                        class="hover:underline"
+                                        href="article.html"
+                                    >
+                                        Vstupenky na derby béček
+                                    </a>
                                 </h3>
                             </div>
                         </div>
                     </article>
                     <article>
-                        <div class="mx-auto w-max max-w-full">
-                            <img
-                                class="rounded"
-                                src="https://picsum.photos/500/200"
-                                alt=""
-                            />
+                        <div class="max-w-full">
+                            <a
+                                class="group relative block h-[240px] overflow-hidden"
+                                href="article.html"
+                            >
+                                <img
+                                    class="absolute inset-0 h-full w-full rounded object-cover transition-transform duration-200 group-hover:scale-105"
+                                    src="https://sparta.cz/upload/cropper/2023-2/hex0cdcubl63f2831f942525.57325127.jpg?w=960&webp=1"
+                                    alt=""
+                                />
+                            </a>
                             <div class="py-2">
-                                <span class="text-sm">18. 1. 2023</span>
+                                <span class="text-sm">18. 2. 2023</span>
                                 <h3
                                     class="text-lg font-bold leading-6 line-clamp-2 lg:text-xl"
                                 >
-                                    Lorem ipsum dolor sit amet consectetur,
-                                    adipisicing elit.
+                                    <a
+                                        class="hover:underline"
+                                        href="article.html"
+                                    >
+                                        Vindheim odchází do Lillestrømu
+                                    </a>
                                 </h3>
                             </div>
                         </div>
                     </article>
                     <article>
-                        <div class="mx-auto w-max max-w-full">
-                            <img
-                                class="rounded"
-                                src="https://picsum.photos/500/200"
-                                alt=""
-                            />
+                        <div class="max-w-full">
+                            <a
+                                class="group relative block h-[240px] overflow-hidden"
+                                href="article.html"
+                            >
+                                <img
+                                    class="absolute inset-0 h-full w-full rounded object-cover transition-transform duration-200 group-hover:scale-105"
+                                    src="https://php.esports.cz/images/min_https.php?compress=88&w=2280&h=2280&mtime=1676830526&file=https://www.fcviktoria.cz//foto/SLOPLZ-2223-sykora-web.jpg"
+                                    alt=""
+                                />
+                            </a>
                             <div class="py-2">
-                                <span class="text-sm">18. 1. 2023</span>
+                                <span class="text-sm">13. 2. 2023</span>
                                 <h3
                                     class="text-lg font-bold leading-6 line-clamp-2 lg:text-xl"
                                 >
-                                    Lorem ipsum dolor sit amet consectetur,
-                                    adipisicing elit. Lorem ipsum dolor sit amet
-                                    consectetur, adipisicing elit.
+                                    <a
+                                        class="hover:underline"
+                                        href="article.html"
+                                    >
+                                        Navrátilec po zranění Jan Sýkora: prohru
+                                        budeme chtít odčinit hned za týden
+                                    </a>
                                 </h3>
                             </div>
                         </div>
@@ -140,33 +177,48 @@
                         Historie
                     </h2>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Error obcaecati omnis debitis, nesciunt consequuntur
-                        deleniti quisquam explicabo cumque quibusdam esse ad
-                        iste enim nulla aut possimus cupiditate fugit eius
-                        facilis. Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Error obcaecati omnis debitis,
-                        nesciunt consequuntur deleniti quisquam explicabo cumque
-                        quibusdam esse ad iste enim nulla aut possimus
-                        cupiditate fugit eius facilis.
-                        <br />
-                        <br />
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Error obcaecati omnis debitis, nesciunt consequuntur
-                        deleniti quisquam explicabo cumque quibusdam esse ad
-                        iste enim nulla aut possimus cupiditate fugit eius
-                        facilis. Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Error obcaecati omnis debitis,
-                        nesciunt consequuntur deleniti quisquam explicabo cumque
-                        quibusdam esse ad iste enim nulla aut possimus
-                        cupiditate fugit eius facilis.
-                        <br />
-                        <br />
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Error obcaecati omnis debitis, nesciunt consequuntur
-                        deleniti quisquam explicabo cumque quibusdam esse ad
-                        iste enim nulla aut possimus cupiditate fugit eius
-                        facilis.
+                        Historie fotbalové Sparty začala v roce 1891, kdy
+                        několik nadšenců založilo na pražských Maninách klub se
+                        jménem AC Praha. Pěstovala se zde mimo jiné i
+                        cyklistika, a když byla Vltava zamrzlá, tak i bruslení.
+                        Po dvou letech činnosti se však klub rozhádal a odešla z
+                        něj skupina odbojníků v čele s Karlem, Otou a Josefem
+                        Malečkovými. Ti založili Athletic Club Královské
+                        Vinohrady. Prvním předsedou byl Maxmilián Švagrovský,
+                        původem z Roudnice nad Labem. Vinohrady byly tehdy ještě
+                        samostatné bohaté město za hranicemi Prahy, a proto nový
+                        klub očekával od radnice štědrou podporu. Klub byl
+                        ustanoven 16. listopadu 1893 a tento den je považován za
+                        datum založení klubu. O pár týdnů později uspořádal nový
+                        klub bruslařskou exhibici, na které se objevil i Bohumil
+                        Rudl. Tomu se exhibice líbila a přivedl i své dva bratry
+                        Václava a Rudolfa.
+                        <br /><br />
+                        Ti hráli především fotbal a brzy přivedli celý fotbalový
+                        kroužek, který v té době působil na Letenské pláni.
+                        Podpora vinohradské radnice byla nulová, a když jim
+                        nenabídla ani pozemek pro nový stadion, klub se rozhodl
+                        změnit působiště. To bylo schváleno na valné hromadě 9.
+                        srpna 1894 v kavárně Demínka. Během jednání povstal
+                        Vladimír Horejc a pronesl slavná slova: „Nechť se náš
+                        klub napříště zove AC Sparta!“ V celé Evropě byla tehdy
+                        antická kultura v módě, a tak byl návrh schválen s
+                        bouřlivým nadšením. Ale ani nový název nedokázal
+                        zajistit nový stadion. Sparťani tedy trénovali na
+                        vojenském cvičišti na Invalidovně a jako většina
+                        tehdejších klubů své zápasy hráli nejčastěji na Císařské
+                        louce. Právě tam se konal 29. března 1896 turnaj s
+                        názvem „Národní zápasy mužstev, kopaný míč cvičících“.
+                        Od tohoto turnaje se datují všechna slavná derby Sparty
+                        se Slavií. Na hřišti vyhrála Sparta první zápas 1:0, ale
+                        slavný rozhodčí a praotec českého sportu Josef
+                        Rössler-Ořovský po zápase sparťanský gól odvolal. Nebyla
+                        to svévole rozhodčího. Jeho rozhodnutí odpovídalo
+                        tehdejšímu výkladu pravidel, podle kterého museli
+                        dosaženou branku schválit kapitáni obou mužstev. Kvůli
+                        ochlazení vztahů se Slavií se další zápas konal až za
+                        jedenáct let a skončil výsledkem 2:2. Prvním střelcem
+                        Sparty v derby se stal autor obou gólů Karel Hradecký.
                     </p>
                 </div>
             </section>
